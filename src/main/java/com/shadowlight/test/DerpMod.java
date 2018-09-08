@@ -12,7 +12,7 @@ public class DerpMod
 {
     public static final String MODID = "derpmod";
     public static final String NAME = "Derping Around";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "0.0.002";
 
     private static Logger logger;
 
