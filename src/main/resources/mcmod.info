@@ -1,0 +1,16 @@
+[
+{
+  "modid": "derpmod",
+  "name": "Derping Around",
+  "description": "We are derping around to help Dominic",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheBudSkywalker","Shadowgjhgitgjh"],
+  "credits": "None we it",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
