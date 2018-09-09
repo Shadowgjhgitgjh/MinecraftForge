@@ -19,14 +19,14 @@ public class DerpMod
 {
     public static final String MODID = "derpmod";
     public static final String NAME = "Derping Around";
-    public static final String VERSION = "0.0.003";
+    public static final String VERSION = "0.0.004";
 
     private static Logger logger;
     
     @Mod.Instance(MODID)
     public static DerpMod instance;
     
-	@SidedProxy(serverSide = "com.shadowlight.test.proxy.CommonProxy", clientSide = "net.shadowfacts.test.proxy.ClientProxy")
+	@SidedProxy(serverSide = "com.shadowlight.test.proxy.CommonProxy", clientSide = "com.shadowlight.test.proxy.ClientProxy")
 	public static CommonProxy proxy;
 	
 	@Mod.EventBusSubscriber
